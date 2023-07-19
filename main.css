@@ -1,0 +1,80 @@
+@keyframes showNav{from{margin-left:-15%}to{margin-left:0%}}
+
+h1, h2, h3, p{
+    cursor: default;
+    font-family: "Segoe UI Black"
+}
+
+button:hover{
+    filter: brightness(125%)
+}
+
+#header-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #DAD9D9  
+}
+
+#nav-btn{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    width: 64px;
+    height: 54px;
+    background:url("Images/nav.png");
+    cursor: pointer
+}
+
+#nav-container{
+    animation-name: showNav;
+    animation-duration: 0.5s;
+    margin-left: 0%;
+    display: none;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    background-color: #DAD9D9;
+    width: 10%;
+    height: 45%;
+    text-align: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.nav-link{
+    cursor: pointer;
+    font-family: "Segoe UI Black";
+    color: blue;
+}
+
+.nav-link:visited{
+    color: blue
+}
+
+#pepeha-container{
+    position: absolute;
+    top: 45%;
+    left: 65%
+}
+
+#images-container{
+    position: absolute;
+    top: 70%;
+    left: 15%
+}
+
+#flags{
+    position: absolute;
+    top: 67.5%;
+    left: 55%
+}
+
+.entertainment{
+    padding: 50px;
+    font-size: xx-large;
+    cursor: pointer;
+    font-family: 'Segoe UI Black';
+    border-width: 2.5px;
+}
